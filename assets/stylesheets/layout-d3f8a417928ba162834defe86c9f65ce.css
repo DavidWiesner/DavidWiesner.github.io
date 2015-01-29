@@ -58,9 +58,9 @@ article h1,
 article h2								{	margin-left:-.5em; padding-left: .5em;	padding: .5em 0 .5em .5em; margin-bottom: .5em; border-bottom: 1px solid #ECEFF1;}
 article .date							{ margin-top:-.5em;text-align:right;font-weight:300;margin-right:1em;margin-bottom:1.5em}
 article footer							{ font-size:.7em; font-weight:300;}
-p code:last-child:first-child {
-}
+p code:last-child:first-child 			{}
 
+article .archive h2 					{border:0;}
 .post > .more {
   margin-top:1.5em;
   text-align:left;
