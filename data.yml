@@ -1,0 +1,16 @@
+title : David Wiesner
+tagline: 
+author :
+  name : First-name Last-name
+  email : blah@email.test
+  github : DavidWiesner
+  gplus : "116758442804450648154"
+#  twitter : username
+#  feedburner : feedname
+
+navigation :
+  - archive
+#  - tags
+#  - categories
+#  - all-pages.html
+  - about.md

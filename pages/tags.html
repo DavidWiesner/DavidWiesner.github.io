@@ -1,0 +1,17 @@
+<article>
+<ul class="tag_box">
+{{# posts.tags.all }}
+  {{> tags_list }}
+{{/ posts.tags.all }}
+</ul>
+<div class="row-max">
+{{# posts.tags.all }}
+  <h3 class="grid_2" id="{{name}}-ref">{{name}}</h3>
+  <ul class="grid_8" >
+  {{# posts?to_posts }}
+    <li><a href="{{url}}">{{title}}</a></li>
+  {{/ posts?to_posts }}
+  </ul>
+{{/ posts.tags.all }} 
+</div>
+</article>

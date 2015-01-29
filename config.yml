@@ -1,0 +1,16 @@
+"date_format": "%d. %b, %Y"
+theme-amazium:
+  use: theme
+theme-twitter:
+  use: ignore
+pages:
+  permalink : '/pages/:title'
+  layout : 'pages'
+posts:
+  "sort" : ["date", "desc"]
+widgets :
+  mathjax :
+    use : "mathjax"
+  google_prettify :
+    use : default
+    linenums : true
