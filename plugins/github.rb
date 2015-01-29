@@ -16,6 +16,11 @@ class Ruhoh
       _source_branch = source_branch
       _deploy_branch = deploy_branch
       _origin_remote = origin_remote
+	  # try to create all branches if not exist
+      system("git", "branch", deploy_branch)
+      system("git", "branch", source_branch)
+
+
       Ruhoh::Friend.say {
         plain "Deploying to GitHub Pages."
         plain "(Settings based on origin remote name: #{ _origin_remote })"
@@ -23,6 +28,7 @@ class Ruhoh
         plain "    Source: '#{ _source_branch }' branch."
         plain "  Compiled: '#{ _deploy_branch }' branch."
       }
+      return
 
       if deploy_branch?
         puts "Currently in deploy branch: '#{ deploy_branch }'; switching to source branch: '#{ source_branch }'..."
