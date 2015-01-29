@@ -28,7 +28,7 @@ class Ruhoh
         plain "    Source: '#{ _source_branch }' branch."
         plain "  Compiled: '#{ _deploy_branch }' branch."
       }
-      return
+#      return
 
       if deploy_branch?
         puts "Currently in deploy branch: '#{ deploy_branch }'; switching to source branch: '#{ source_branch }'..."
