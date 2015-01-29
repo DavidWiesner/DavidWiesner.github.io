@@ -19,7 +19,7 @@ class Ruhoh
 	  # try to create all branches if not exist
       system("git", "branch", deploy_branch)
       system("git", "branch", source_branch)
-
+ 
 
       Ruhoh::Friend.say {
         plain "Deploying to GitHub Pages."
@@ -32,7 +32,7 @@ class Ruhoh
 
       if deploy_branch?
         puts "Currently in deploy branch: '#{ deploy_branch }'; switching to source branch: '#{ source_branch }'..."
-        `git checkout #{ source_branch }`
+        system("git", "checkout", source_branch)
       end
 
       ruhoh = compile
