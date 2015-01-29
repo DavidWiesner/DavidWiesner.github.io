@@ -254,9 +254,6 @@
       <description>&lt;article&gt;
 &lt;ul class="tag_box"&gt;
   &lt;li&gt;
-    &lt;a href="#ruhoh-ref"&gt;ruhoh &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
     &lt;a href="#linux-ref"&gt;linux &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -264,10 +261,6 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="row-max"&gt;
-  &lt;h3 class="grid_2" id="ruhoh-ref"&gt;ruhoh&lt;/h3&gt;
-  &lt;ul class="grid_8" &gt;
-    &lt;li&gt;&lt;a href="/posts/drafts/setup-ruhoh"&gt;Setup ruhoh&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
   &lt;h3 class="grid_2" id="linux-ref"&gt;linux&lt;/h3&gt;
   &lt;ul class="grid_8" &gt;
     &lt;li&gt;&lt;a href="/posts/using-vlc-as-upnp-renderer-with-rygel"&gt;Using VLC as UPnP renderer with rygel&lt;/a&gt;&lt;/li&gt;
