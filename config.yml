@@ -1,8 +1,11 @@
-"date_format": "%d. %b, %Y"
+#"date_format": "%d. %b, %Y"
+#production_url: 'http://DavidWiesner.github.io'
 theme-amazium:
   use: theme
 theme-twitter:
   use: ignore
+#plugins/publish:
+#  use: ignore
 pages:
   permalink : '/pages/:title'
   layout : 'pages'

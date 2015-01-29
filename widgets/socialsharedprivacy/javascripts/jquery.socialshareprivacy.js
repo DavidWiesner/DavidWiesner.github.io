@@ -340,6 +340,9 @@
                     var i = 0;
                     for (; i < cookie_list.length; i += 1) {
                         var foo = cookie_list[i].split('=');
+                        if(foo.length<2){
+                        	continue;
+                        }
                         // Spaces and Quotes getting removed
                         foo[0] = $.trim(foo[0].replace(/"/g, ''));
                         foo[1] = $.trim(foo[1].replace(/"/g, ''));
@@ -358,7 +361,7 @@
                     $container_settings_info.find('.settings_info_menu').removeClass('perma_option_off');
 
                     // Perma-Optionen-Icon (.settings) und Formular (noch versteckt) einbinden
-                    $container_settings_info.find('.settings_info_menu').append('<a href="#" class="settings">' + language.settings + '</a><form><fieldset><legend>' + language.settings_perma + '</legend></fieldset></form>');
+                    $container_settings_info.find('.settings_info_menu').append('<a href="#" class="settings">' + language.settings + '</a><form><fieldset class="checkbox"><legend>' + language.settings_perma + '</legend></fieldset></form>');
 
 
                     var random = 'r' + Math.floor(Math.random()*101);
@@ -368,21 +371,21 @@
                     if (facebook_on && facebook_perma) {
                         var perma_status_facebook = cookies.socialSharePrivacy_facebook === 'perma_on' ? checked : '';
                         $container_settings_info.find('form fieldset').append(
-                            '<input type="checkbox" name="perma_status_facebook" id="' + random + '_perma_status_facebook"' + perma_status_facebook + ' /><label for="'+random+'_perma_status_facebook">' + language.services.facebook.perma_display_name + '</label>'
+                            '<span><input type="checkbox" name="perma_status_facebook" id="' + random + '_perma_status_facebook"' + perma_status_facebook + ' /><label for="'+random+'_perma_status_facebook">' + language.services.facebook.perma_display_name + '</label></span>'
                         );
                     }
 
                     if (twitter_on && twitter_perma) {
                         var perma_status_twitter = cookies.socialSharePrivacy_twitter === 'perma_on' ? checked : '';
                         $container_settings_info.find('form fieldset').append(
-                            '<input type="checkbox" name="perma_status_twitter" id="' + random + '_perma_status_twitter"' + perma_status_twitter + ' /><label for="'+random+'_perma_status_twitter">' + language.services.twitter.perma_display_name + '</label>'
+                            '<span><input type="checkbox" name="perma_status_twitter" id="' + random + '_perma_status_twitter"' + perma_status_twitter + ' /><label for="'+random+'_perma_status_twitter">' + language.services.twitter.perma_display_name + '</label></span>'
                         );
                     }
 
                     if (gplus_on && gplus_perma) {
                         var perma_status_gplus = cookies.socialSharePrivacy_gplus === 'perma_on' ? checked : '';
                         $container_settings_info.find('form fieldset').append(
-                            '<input type="checkbox" name="perma_status_gplus" id="'+random+'_perma_status_gplus"' + perma_status_gplus + ' /><label for="'+random+'_perma_status_gplus">' + language.services.gplus.perma_display_name + '</label>'
+                            '<span><input type="checkbox" name="perma_status_gplus" id="'+random+'_perma_status_gplus"' + perma_status_gplus + ' /><label for="'+random+'_perma_status_gplus">' + language.services.gplus.perma_display_name + '</label></span>'
                         );
                     }
 

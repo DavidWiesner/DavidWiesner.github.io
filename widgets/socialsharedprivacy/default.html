@@ -1,18 +1,32 @@
 ---
 # language available en and de
-#lang: "en"
+lang: "en"
 ---
-
-
 <div id="socialshareprivacy"/>
-<script type="text/javascript" src="{{this_path}}/javascripts/jquery.socialshareprivacy.min.js"></script>
 <script>window.jQuery || document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"><\/script>')</script>
+<script type="text/javascript" src="{{this_path}}/javascripts/jquery.socialshareprivacy.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($){
 		$('#socialshareprivacy').socialSharePrivacy({
-			"css_path"  : "{{this_path}}/stylesheets/socialshareprivacy.css",
-			"lang_path" : "{{this_path}}/stylesheets/lang/",
-			"language"  : "{{lang}}"
+			"css_path"  : "{{this_path}}/media/socialshareprivacy.css",
+			"lang_path" : "{{this_path}}/media/lang/",
+			"language"  : "{{this_config.lang}}",
+			"perma_orientation" : "top",
+			"services" : {
+				facebook : {
+					'dummy_img' : '{{this_path}}/media/images/dummy_facebook_share_{{this_config.lang}}.png',
+					'sharer':{
+						'dummy_img' : '{{this_path}}/media/images/dummy_facebook_share_{{this_config.lang}}.png',
+						'img' : '{{this_path}}/media/images/dummy_facebook_share_active_{{this_config.lang}}.png'
+						}
+				}, 
+				twitter : {
+					'dummy_img' : '{{this_path}}/media/images/dummy_twitter.png'
+				},
+				gplus : {
+					'dummy_img' : '{{this_path}}/media/images/dummy_gplus.png'
+				}
+			},
 		});
 	});
 </script>
