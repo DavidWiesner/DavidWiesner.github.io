@@ -10,7 +10,7 @@ require 'tmpdir'
 class Ruhoh
   class Publish::Github
     def run(opts={}, config={})
-#      return false unless can_switch_branch?
+      return false unless can_switch_branch?
 
       _deploy_type = project_page? ? "Project" : "User/Org"
       _source_branch = source_branch
@@ -26,12 +26,11 @@ class Ruhoh
 
       if deploy_branch?
         puts "Currently in deploy branch: '#{ deploy_branch }'; switching to source branch: '#{ source_branch }'..."
-#        `git checkout #{ source_branch }`
+        `git checkout #{ source_branch }`
       end
 
       ruhoh = compile
 
-      return
       # Add to deploy_branch
       return false unless checkout_deploy_branch
       system("git", "rm", "-rf", ".")
