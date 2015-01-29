@@ -67,8 +67,6 @@
   	&lt;div class="grid_10"&gt;
   	&lt;ul&gt;
   	&lt;li&gt;&lt;h3&gt;&lt;span class="txt-light"&gt;28. Jan&lt;/span&gt; &amp;raquo; &lt;a href="/posts/using-vlc-as-upnp-renderer-with-rygel"&gt;Using VLC as UPnP renderer with rygel&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;
-  	&lt;li&gt;&lt;h3&gt;&lt;span class="txt-light"&gt;27. Jan&lt;/span&gt; &amp;raquo; &lt;a href="/posts/another-long-title-post-never-mind-so-long"&gt;Another Long Title Post never mind so long&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;
-  	&lt;li&gt;&lt;h3&gt;&lt;span class="txt-light"&gt;27. Jan&lt;/span&gt; &amp;raquo; &lt;a href="/posts/setup-ruhoh"&gt;Setup ruhoh&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;
   	&lt;/ul&gt;
   	&lt;/div&gt;
   &lt;/div&gt;
@@ -258,11 +256,25 @@
   &lt;li&gt;
     &lt;a href="#ruhoh-ref"&gt;ruhoh &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="#linux-ref"&gt;linux &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="#UPnP-ref"&gt;UPnP &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="row-max"&gt;
   &lt;h3 class="grid_2" id="ruhoh-ref"&gt;ruhoh&lt;/h3&gt;
   &lt;ul class="grid_8" &gt;
-    &lt;li&gt;&lt;a href="/posts/setup-ruhoh"&gt;Setup ruhoh&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/posts/drafts/setup-ruhoh"&gt;Setup ruhoh&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h3 class="grid_2" id="linux-ref"&gt;linux&lt;/h3&gt;
+  &lt;ul class="grid_8" &gt;
+    &lt;li&gt;&lt;a href="/posts/using-vlc-as-upnp-renderer-with-rygel"&gt;Using VLC as UPnP renderer with rygel&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h3 class="grid_2" id="UPnP-ref"&gt;UPnP&lt;/h3&gt;
+  &lt;ul class="grid_8" &gt;
+    &lt;li&gt;&lt;a href="/posts/using-vlc-as-upnp-renderer-with-rygel"&gt;Using VLC as UPnP renderer with rygel&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
  
 &lt;/div&gt;
