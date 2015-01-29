@@ -3,22 +3,22 @@
   <channel>
     <title>David Wiesner</title>
     <description>David Wiesner</description>
-    <link/>
-    <pubDate>2015-01-29</pubDate>
+    <link>http://DavidWiesner.github.io</link>
+    <pubDate>29. Jan, 2015</pubDate>
     <item>
       <title>David Wiesner - Home</title>
-      <link>/</link>
-      <pubDate>2012-12-12</pubDate>
+      <link>http://DavidWiesner.github.io/</link>
+      <pubDate>12. Dec, 2012</pubDate>
       <description/>
     </item>
     <item>
       <title>Home</title>
-      <link>/-old</link>
+      <link>http://DavidWiesner.github.io/-old</link>
       <description>## Hello World
 **Hello World**
 
 &lt;div class="post"&gt;
-  &lt;h3 class="title"&gt;&lt;a href="/posts/using-vlc-as-upnp-renderer-with-rygel"&gt;Using VLC as UPnP renderer with rygel&lt;/a&gt; &lt;span class="date"&gt;2015-01-28&lt;/span&gt;&lt;/h3&gt;
+  &lt;h3 class="title"&gt;&lt;a href="/posts/using-vlc-as-upnp-renderer-with-rygel"&gt;Using VLC as UPnP renderer with rygel&lt;/a&gt; &lt;span class="date"&gt;28. Jan, 2015&lt;/span&gt;&lt;/h3&gt;
 
   &lt;div class="summary ellipsis"&gt;
 &lt;p&gt;I have a NAS, a smartphone and my local Computer. What todo with all this thinks? My NAS has a lot of multimedia files and my computer has a large monitor i thought why not connect all this thinks. &lt;/p&gt;
@@ -69,7 +69,7 @@ enabled=false
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="post"&gt;
-  &lt;h3 class="title"&gt;&lt;a href="/posts/another-long-title-post-never-mind-so-long"&gt;Another Long Title Post never mind so long&lt;/a&gt; &lt;span class="date"&gt;2015-01-27&lt;/span&gt;&lt;/h3&gt;
+  &lt;h3 class="title"&gt;&lt;a href="/posts/another-long-title-post-never-mind-so-long"&gt;Another Long Title Post never mind so long&lt;/a&gt; &lt;span class="date"&gt;27. Jan, 2015&lt;/span&gt;&lt;/h3&gt;
 
   &lt;div class="summary ellipsis"&gt;
 &lt;p&gt;Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den s&#xFC;&#xDF;en Fr&#xFC;hlingsmorgen, die ich mit ganzem Herzen genie&#xDF;e. Ich bin allein &lt;a href="http://www.moiaussi.de"&gt;und&lt;/a&gt; freue mich meines Lebens in dieser Gegend, die f&#xFC;r solche Seelen geschaffen ist wie die meine. Ich bin so gl&#xFC;cklich, mein Bester, so ganz in dem Gef&#xFC;hle von ruhigem Dasein versunken, da&#xDF; meine Kunst darunter leidet.&lt;/p&gt;
@@ -100,7 +100,7 @@ enabled=false
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="post"&gt;
-  &lt;h3 class="title"&gt;&lt;a href="/posts/setup-ruhoh"&gt;Setup ruhoh&lt;/a&gt; &lt;span class="date"&gt;2015-01-27&lt;/span&gt;&lt;/h3&gt;
+  &lt;h3 class="title"&gt;&lt;a href="/posts/setup-ruhoh"&gt;Setup ruhoh&lt;/a&gt; &lt;span class="date"&gt;27. Jan, 2015&lt;/span&gt;&lt;/h3&gt;
 
   &lt;div class="summary"&gt;
 &lt;ul&gt;

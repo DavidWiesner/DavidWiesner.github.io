@@ -3,12 +3,12 @@
   <channel>
     <title>David Wiesner</title>
     <description>David Wiesner</description>
-    <link/>
-    <pubDate>2015-01-29</pubDate>
+    <link>http://DavidWiesner.github.io</link>
+    <pubDate>29. Jan, 2015</pubDate>
     <item>
       <title>About</title>
-      <link>/pages/about</link>
-      <pubDate>2015-01-27</pubDate>
+      <link>http://DavidWiesner.github.io/pages/about</link>
+      <pubDate>27. Jan, 2015</pubDate>
       <description>&lt;h1 id="toc_0"&gt;About Me&lt;/h1&gt;
 
 &lt;p&gt;Text &lt;a href="http://www.moiaussi.de"&gt;Text&lt;/a&gt; text Text&lt;/p&gt;
@@ -24,7 +24,7 @@
     </item>
     <item>
       <title>All Pages</title>
-      <link>/pages/all-pages</link>
+      <link>http://DavidWiesner.github.io/pages/all-pages</link>
       <description>
 &lt;ul&gt;
   
@@ -59,7 +59,7 @@
     </item>
     <item>
       <title>Archive</title>
-      <link>/pages/archive</link>
+      <link>http://DavidWiesner.github.io/pages/archive</link>
       <description>  &lt;div class="row-max archive"&gt;
   	&lt;div class="grid_2 no_padding"&gt;
   	&lt;h2 class="ul-margin-top"&gt;2015&lt;/h2&gt;
@@ -76,7 +76,7 @@
     </item>
     <item>
       <title>Categories</title>
-      <link>/pages/categories</link>
+      <link>http://DavidWiesner.github.io/pages/categories</link>
       <description>&lt;article&gt;
 &lt;ul class="tag_box inline"&gt;
 &lt;/ul&gt;
@@ -85,8 +85,8 @@
     </item>
     <item>
       <title>Hello</title>
-      <link>/pages/hello</link>
-      <pubDate>2012-12-12</pubDate>
+      <link>http://DavidWiesner.github.io/pages/hello</link>
+      <pubDate>12. Dec, 2012</pubDate>
       <description>&lt;h2 id="toc_0"&gt;Hello World&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Hello Bold World&lt;/strong&gt;&lt;/p&gt;
@@ -96,8 +96,8 @@
     </item>
     <item>
       <title>Hello</title>
-      <link>/pages/hello</link>
-      <pubDate>2012-12-12</pubDate>
+      <link>http://DavidWiesner.github.io/pages/hello</link>
+      <pubDate>12. Dec, 2012</pubDate>
       <description>&lt;h2 id="toc_0"&gt;Hello World&lt;/h2&gt;
 
 &lt;p&gt;Hello
@@ -106,8 +106,8 @@
     </item>
     <item>
       <title>Hello</title>
-      <link>/pages/hello</link>
-      <pubDate>2012-12-12</pubDate>
+      <link>http://DavidWiesner.github.io/pages/hello</link>
+      <pubDate>12. Dec, 2012</pubDate>
       <description>&lt;h2 id="toc_0"&gt;Hello World&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Hello Bold World&lt;/strong&gt;&lt;/p&gt;
@@ -115,7 +115,7 @@
     </item>
     <item>
       <title>Rss</title>
-      <link>/pages/rss.xml</link>
+      <link>http://DavidWiesner.github.io/pages/rss.xml</link>
       <description>&lt;?xml version="1.0"?&gt;
 &lt;rss version="2.0"&gt;
   &lt;channel&gt;
@@ -252,7 +252,7 @@
     </item>
     <item>
       <title>Tags</title>
-      <link>/pages/tags</link>
+      <link>http://DavidWiesner.github.io/pages/tags</link>
       <description>&lt;article&gt;
 &lt;ul class="tag_box"&gt;
   &lt;li&gt;

@@ -3,12 +3,12 @@
   <channel>
     <title>David Wiesner</title>
     <description>David Wiesner</description>
-    <link/>
-    <pubDate>2015-01-29</pubDate>
+    <link>http://DavidWiesner.github.io</link>
+    <pubDate>29. Jan, 2015</pubDate>
     <item>
       <title>Using VLC as UPnP renderer with rygel</title>
-      <link>/posts/using-vlc-as-upnp-renderer-with-rygel</link>
-      <pubDate>2015-01-28</pubDate>
+      <link>http://DavidWiesner.github.io/posts/using-vlc-as-upnp-renderer-with-rygel</link>
+      <pubDate>28. Jan, 2015</pubDate>
       <description>&lt;p&gt;I have a NAS, a smartphone and my local Computer. What todo with all this thinks? My NAS has a lot of multimedia files and my computer has a large monitor i thought why not connect all this thinks. &lt;/p&gt;
 
 &lt;p&gt;So here is my setup:&lt;/p&gt;
@@ -94,8 +94,8 @@ rygel
     </item>
     <item>
       <title>Another Long Title Post never mind so long</title>
-      <link>/posts/another-long-title-post-never-mind-so-long</link>
-      <pubDate>2015-01-27</pubDate>
+      <link>http://DavidWiesner.github.io/posts/another-long-title-post-never-mind-so-long</link>
+      <pubDate>27. Jan, 2015</pubDate>
       <description>&lt;p&gt;Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den s&#xFC;&#xDF;en Fr&#xFC;hlingsmorgen, die ich mit ganzem Herzen genie&#xDF;e. Ich bin allein &lt;a href="http://www.moiaussi.de"&gt;und&lt;/a&gt; freue mich meines Lebens in dieser Gegend, die f&#xFC;r solche Seelen geschaffen ist wie die meine. Ich bin so gl&#xFC;cklich, mein Bester, so ganz in dem Gef&#xFC;hle von ruhigem Dasein versunken, da&#xDF; meine Kunst darunter leidet.&lt;/p&gt;
 
 &lt;p&gt;Ich k&#xF6;nnte jetzt nicht zeichnen, nicht einen Strich, &lt;a href="http://www.moiaussi.de"&gt;und&lt;/a&gt; bin nie ein gr&#xF6;&#xDF;erer Maler gewesen als in diesen Augenblicken.&lt;/p&gt;
@@ -123,8 +123,8 @@ rygel
     </item>
     <item>
       <title>Setup ruhoh</title>
-      <link>/posts/setup-ruhoh</link>
-      <pubDate>2015-01-27</pubDate>
+      <link>http://DavidWiesner.github.io/posts/setup-ruhoh</link>
+      <pubDate>27. Jan, 2015</pubDate>
       <description>&lt;ul&gt;
 &lt;li&gt;install bundler&lt;/li&gt;
 &lt;li&gt;add mathjax as widget&lt;/li&gt;
